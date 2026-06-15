@@ -14,17 +14,18 @@ A full end-to-end data analytics project analyzing retail sales data from the Ka
 - Docker | App containerization 
 
 ## Project Structure
+```text
 superstore_project/
 ├── data/
-│   ├── raw/                    ← original dataset
-│   ├── processed/              ← cleaned CSV
-│   └── superstore.db           ← SQLite database
+│   ├── raw/          # Original dataset
+│   ├── processed/    # Cleaned CSV
+│   └── superstore.db # SQLite database
 ├── scripts/
-│   ├── etl.py                  ← ETL pipeline
-│   └── queries.py              ← SQL queries
-├── app.py                      ← Streamlit dashboard
-├── Dockerfile                  ← container setup
-└── requirements.txt            ← dependencies
+│   ├── etl.py        # ETL pipeline
+│   └── queries.py    # SQL queries
+├── app.py            # Streamlit dashboard
+├── Dockerfile        # Container setup
+└── requirements.txt  # Dependencies
 
 ## How to Run
 
