@@ -4,14 +4,14 @@
 A full end-to-end data analytics project analyzing retail sales data from the Kaggle Superstore dataset. Built for marketing and business stakeholders to explore revenue trends, product performance, and customer behavior.
 
 ## Tech Stack
-| Python (pandas, NumPy) | Data cleaning and feature engineering |
-| SQLite | Local database storage |
-| SQL | Data aggregation and querying |
-| Streamlit | Interactive web dashboard |
-| Plotly | Data visualizations |
-| Power BI | Business intelligence dashboard |
-| Excel | Pivot tables and customer lookup report |
-| Docker | App containerization |
+- Python (pandas, NumPy) | Data cleaning and feature engineering 
+- SQLite | Local database storage 
+- SQL | Data aggregation and querying 
+- Streamlit | Interactive web dashboard 
+- Plotly | Data visualizations 
+- Power BI | Business intelligence dashboard 
+- Excel | Pivot tables and customer lookup report 
+- Docker | App containerization 
 
 ## Project Structure
 superstore_project/
