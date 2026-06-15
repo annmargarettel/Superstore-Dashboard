@@ -26,6 +26,7 @@ superstore_project/
 ├── app.py            # Streamlit dashboard
 ├── Dockerfile        # Container setup
 └── requirements.txt  # Dependencies
+```
 
 ## How to Run
 
