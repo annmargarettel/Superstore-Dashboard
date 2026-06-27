@@ -3,6 +3,13 @@
 ## Project Overview
 A full end-to-end data analytics project analyzing retail sales data from the Kaggle Superstore dataset. Built for marketing and business stakeholders to explore revenue trends, product performance, and customer behavior.
 
+## Key Insights
+The data shows a healthy overall business with 2.30M in total sales and a 12.47% macro profit margin. While Revenue showed steady growth over the years, 2017 had the strongest performance. Driving this, Technology generated the highest sales and profit among all product categories. This is further supported by the Canon imageCLASS 2200 Advanced Copier being the top-selling product, followed by items from the same category.
+
+Meanwhile, although Furniture had the second most sales, it had relatively lower profits. Particularly, Tables and Bookcases showed negative profitability, highlighting opportunities for pricing or cost optimization.
+
+The West region contributed the highest share of sales, making $3M+ in sales, closely followed by the East. Meanwhile, the South lags significantly at just around $2.0M, indicating under-penetrated market segments.
+
 ## Tech Stack
 - Python (pandas, NumPy) | Data cleaning and feature engineering 
 - SQLite | Local database storage 
@@ -45,8 +52,3 @@ docker build -t superstore-dashboard .
 docker run -p 8501:8501 superstore-dashboard
 ```
 
-## Key Insights
-- **Tables and Bookcases are unprofitable** despite high sales volume,
-  likely due to heavy discounting
-- **West region leads in total revenue ($3.6M)** 
-- **Tech products drive the most sales and profit** 
